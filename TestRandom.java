@@ -29,6 +29,8 @@ public  class  TestRandom {
 			avg = (ratio_more / ratio_less);
 		}
 
+		System.out.println("> 0.5:" + " " + count_more);
+		System.out.println("< 0.5:" + " " + count_less);
 		System.out.println("Ratio:" + " " + avg);
 		    
 	}
