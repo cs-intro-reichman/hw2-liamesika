@@ -28,7 +28,7 @@ public class TimeCalc {
         if (new_hours > 23){
             new_hours = new_hours % 24;
         }
-        System.out.println(time_insert + " " + " → " + new_hours + ":" + minutes_to_print);
+        System.out.println(minutes_to_print);
 
     }
 
