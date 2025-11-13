@@ -19,7 +19,7 @@ public class Cheers {
                         a_an = "an ";
                 }
                 
-                System.out.println(first_str + " " + a_an + " " + upper + ": " + upper + "!");
+                System.out.println(first_str + " " + a_an + upper + ": " + upper + "!");
              }
 
              System.out.println("What does that spell?");

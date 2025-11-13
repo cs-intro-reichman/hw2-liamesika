@@ -28,7 +28,11 @@ public class TimeCalc {
         if (new_hours > 23){
             new_hours = new_hours % 24;
         }
-        System.out.println(new_hours + ":" + minutes_to_print);
+        String p_new_hours = String.valueOf(new_hours);
+        if ((String.valueOf(new_hours).length()) <1 ){
+            p_new_hours = "0" + String.valueOf(new_hours);
+        }
+        System.out.println(p_new_hours + ":" + minutes_to_print);
 
     }
 

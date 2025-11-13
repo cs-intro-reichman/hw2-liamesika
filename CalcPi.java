@@ -4,7 +4,7 @@ public class CalcPi {
 		String number = args[0];
 
 	   int num = Integer.valueOf(number);
-	   double my_pi = 0.0;
+	   double my_pi = 1.0;
 	   double previous_num = 1.0;
 	   String plus_minus = "-";
 	   // one time minus one time plus if you are plus you will change
