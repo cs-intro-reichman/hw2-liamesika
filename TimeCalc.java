@@ -29,7 +29,7 @@ public class TimeCalc {
             new_hours = new_hours % 24;
         }
         String p_new_hours = String.valueOf(new_hours);
-        if ((String.valueOf(new_hours).length()) <1 ){
+        if ((String.valueOf(new_hours).length()) <2 ){
             p_new_hours = "0" + String.valueOf(new_hours);
         }
         System.out.println(p_new_hours + ":" + minutes_to_print);
