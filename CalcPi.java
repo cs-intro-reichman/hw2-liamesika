@@ -23,7 +23,6 @@ public class CalcPi {
 					plus_minus = "+";
 				}
 				previous_num = my_pi;
-     			System.out.println("pi = " + (my_pi*4) + " at i = " + i + "" );
 			}	   
 	   }
 	   double pi_res = my_pi; 
