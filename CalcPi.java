@@ -3,9 +3,6 @@ public class CalcPi {
 	public static void main(String [] args) { 
 		String number = args[0];
 
-		System.out.println("pi accorrding to java:" + Math.PI);
-		System.out.println("pi, approximated:");
-
 	   int num = Integer.valueOf(number);
 	   double my_pi = 0.0;
 	   double previous_num = 1.0;
@@ -27,6 +24,6 @@ public class CalcPi {
 	   }
 	   double pi_res = my_pi; 
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated: " + (pi_res*4.0));
+		System.out.println("pi, approximated:     " + (pi_res*4.0));
 	}
 }

@@ -10,16 +10,16 @@ public class Cheers {
             String cha = "{'A','E','F','H','I','L','M','N','O','R','S','X'}";
             
             for (int i = 0; i < word.length(); i++) {
-                String a_an = "a";
+                String a_an = "a  ";
                 String letter = String.valueOf(word.charAt(i));
                 char upper = Character.toUpperCase(letter.charAt(0));
                 new_word += upper;
 
                 if (cha.indexOf(upper) != -1){
-                        a_an = "an";
+                        a_an = "an ";
                 }
                 
-                System.out.println(first_str + " " + a_an + " " + upper + ": " + upper );
+                System.out.println(first_str + " " + a_an + " " + upper + ": " + upper + "!");
              }
 
              System.out.println("What does that spell?");
